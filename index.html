@@ -4,86 +4,125 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Resume - Muhammad Fahad</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles.css">
+  <title>Graphic Designer Portfolio</title>
 </head>
 
 <body>
-  <div class="row">
-    <section class="col-lg-12 col-md-12">
-      <h1>Resume - Muhammad Fahad</h1>
-      <h2>Contact Information</h2>
-      <p>Email: <a href="mailto:fahedaqeel@gmail.com">fahedaqeel@gmail.com</a></p>
-      <p>Phone: <a href="tel:+923224643623">+92 322 4643623</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/fahedaqeel/">linkedin.com/in/fahedaqeel</a></p>
-    </section>
-
-    <section class="col-lg-6 col-md-6">
-      <h2>Objective</h2>
-      <p>A creative and strategic Brand Strategist and Designer with experience in designing effective branding and
-        marketing campaigns for various clients. Seeking a challenging position in a reputable organization where I can
-        apply my skills and knowledge to help businesses achieve their branding goals.</p>
-    </section>
-
-    <section class="col-lg-6 col-md-6">
-      <h2>Education</h2>
-      <p>Bachelor of Science in Computer Science (BSCS) – , NUST Balochistan Campus (Expected graduation: July 2023)</p>
-    </section>
-
-    <section class="col-lg-12 col-md-12">
-      <h2>Experience</h2>
-      <h3>Designer, Brinysoft</h3>
-      <p>June 2022 – Present</p>
-      <ul>
-        <li>Collaborate with the team to design and develop creative and effective branding and marketing campaigns for
-          clients across various industries.</li>
-        <li>Develop visually appealing designs for logos, websites, social media, and other marketing materials.</li>
-        <li>Conduct market research and competitor analysis to identify branding opportunities and develop strategies to
-          enhance brand recognition and awareness.</li>
-        <li>Create and maintain design guidelines and standards for clients to ensure consistent branding across all
-          channels.</li>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">My Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
       </ul>
-    </section>
+    </div>
+  </nav>
 
-    <section class="col-lg-12 col-md-12">
-      <h2>Projects</h2>
-      <ul>
-        <li>Developed a rebranding strategy for a local restaurant, resulting in a 20% increase in foot traffic and a
-          15%
-          increase in sales.</li>
-        <li>Designed a new website for a fashion retailer, resulting in a 30% increase in online sales and a 25%
-          increase
-          in social media engagement.</li>
-        <li>Developed a comprehensive social media marketing campaign for a beauty brand, resulting in a 40% increase in
-          followers and a 35% increase in website traffic.</li>
-      </ul>
-    </section>
+  <header id="home" class="text-center">
+    <img src="profile-picture.png" alt="Profile Picture" class="profile-picture">
+    <h1>Muhammad Fahad</h1>
+    <p class="subtitle">Graphic Designer & UI/UX Designer</p>
+  </header>
 
-    <section class="col-lg-12 col-md-12">
-      <h2>Projects</h2>
-      <h2>Skills</h2>
-      <ul>
-        <li>Adobe Creative Suite (Photoshop, Illustrator, InDesign)</li>
-        <li>Branding and Identity Design</li>
-        <li>Marketing Strategy and Campaign Development</li>
-        <li>Social Media Management</li>
-        <li>Market Research and Analysis</li>
-      </ul>
-      <h2>Certifications</h2>
-      <ul>
-        <li>Adobe Certified Expert (ACE) in Photoshop</li>
-        <li>HubSpot Inbound Marketing Certification</li>
-      </ul>
-      <h2>Languages</h2>
-      <ul>
-        <li>English (Fluent)</li>
-        <li>Urdu (Native)</li>
-      </ul>
-      <h2>References</h2>
-      <p>Available upon request.</p>
-  </div>
+  <section id="about" class="container py-5">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>About Me</h2>
+        <p>A 22-year-old Undergraduate Student of final year of bachelor's degree in Computer Science. Creative UI Developer with 3 hyears facilitating and supporting human interactions with complex systems and software. Maintains user-centric designs while making Social Media posts and other Graphic-related tasks. Dedicated to increase customer interaction on social media by making attractive designs.</p>
+      </div>
+      <div class="col-md-6">
+        <h2>My Skills</h2>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0"
+            aria-valuemax="100">Graphic Design</div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0"
+            aria-valuemax="100">Web Design</div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0"
+            aria-valuemax="100">UI/UX Design</div>
+        </div>
+      </div>
+    </div>
   </section>
 
+  <section id="projects" class="container py-5">
+    <h2>My Projects</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="project1.png" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Mindful Munchies</h5>
+            <p class="card-text">Mindful Munchies is a Canda based Candy Company That has a wide veriety of products. I have designed 6 products for this company</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="project2.jpg" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Small Giants</h5>
+            <p class="card-text">Small Giants is a small house based company in UK that supplies Crackers made from Crickets.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="project3.jpg" class="card-img-top" alt="Project 3">
+          <div class="card-body">
+            <h5 class="card-title">Modernity</h5>
+            <p class="card-text">Modernity is a Construction Architecture Company. I had made Brand Guidlines and design for this company</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="container py-5">
+    <h2>Contact Me</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </section>
+
+  <footer class="text-center py-4">
+    <p>&copy; 2023 Muhammad Fahad. All rights reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
